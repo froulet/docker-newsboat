@@ -10,6 +10,8 @@ Or build it from the Dockerfile :
 docker build . -t froulet/docker-newsboat
 ```
 
+Use newsboat : 
+docker run -it --rm -v <path to your newsboat config folder>:/root/.newsboat newsboat
 
 ## Get help
 
